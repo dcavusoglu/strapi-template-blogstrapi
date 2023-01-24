@@ -33,6 +33,12 @@
         "blog.featured-post"
       ],
       "required": true
+    },
+    "Services": {
+      "displayName": "ServicesPreview",
+      "type": "component",
+      "repeatable": false,
+      "component": "services.services-preview"
     }
   }
 }

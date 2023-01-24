@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "menus",
+  "info": {
+    "singularName": "menu",
+    "pluralName": "menus",
+    "displayName": "Menu",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "CodeName": {
+      "type": "uid",
+      "targetField": "Name"
+    },
+    "Links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.button"
+    }
+  }
+}
